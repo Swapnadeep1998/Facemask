@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facemask Classifier</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/script.js"></script>
+</head>
+
+<body>    
+
+    <div class="container">
+        <h1>Facemask Classifier Using VGG-16 Model</h1>
+
+    <div class="input-image"> 
+        <div class="canvas" id="preview-canvas"><img id="preview"></div>
+
+        <label class="file-upload">
+        <input type="file" id="file-input" accept="image/*" >  
+        <i type="button" class="btn btn-primary">Upload Image</i>
+        </label>
+        <button type="button" class="btn btn-success" id="classify-button">Classify Image</button>                   
+
+    </div>
+
+    <div class="results">
+
+        <p id="base64">
+            here decoded
+        </p>
+    </div>
+
+
+    </div> 
+
+    
+</body>
+</html>

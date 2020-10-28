@@ -1,0 +1,39 @@
+.input-image{
+    width: 270px;
+    height: 30%;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.canvas{
+    height: 250px;
+    width: 260px;
+    border: 1px solid black;
+    align-items: center;
+    object-fit: fill;
+}
+
+#preview{
+    height: 250px;
+    width: 260px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-upload {
+    margin-top: 10px;
+}
+
+.results{
+    width: 20%;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    float: right;
+    position: relative;
+    bottom: 270px;
+    right: 100px;
+
+}

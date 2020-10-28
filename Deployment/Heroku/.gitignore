@@ -1,0 +1,5 @@
+Procfile 
+runtime.txt
+.ebignore
+.ebextensions/
+.vscode/
